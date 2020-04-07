@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPPlus", "EPPlus\EPPlus.csproj", "{FF42EEFB-2C24-402E-A6DE-7BE1AF739FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read_Registry", "Read_Registry\Read_Registry.csproj", "{1ADFC252-83A6-4FF8-9200-26DD9E07F584}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF42EEFB-2C24-402E-A6DE-7BE1AF739FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF42EEFB-2C24-402E-A6DE-7BE1AF739FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF42EEFB-2C24-402E-A6DE-7BE1AF739FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF42EEFB-2C24-402E-A6DE-7BE1AF739FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADFC252-83A6-4FF8-9200-26DD9E07F584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADFC252-83A6-4FF8-9200-26DD9E07F584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADFC252-83A6-4FF8-9200-26DD9E07F584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADFC252-83A6-4FF8-9200-26DD9E07F584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {271B9D74-1A94-490C-8F61-437341AAFEE3}
+	EndGlobalSection
+EndGlobal
