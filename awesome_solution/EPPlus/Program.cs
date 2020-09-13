@@ -1,6 +1,7 @@
 ﻿using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,9 +18,8 @@ namespace EPPlus
         private static void ReadFileExcel()
         {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-            ExcelPackage package = new ExcelPackage(new System.IO.FileInfo("test.xlsx"));
+            ExcelPackage package = new ExcelPackage(new FileInfo("test.xlsx"));
             ExcelWorksheet sheet = package.Workbook.Worksheets[0];
-
             string strRes = sheet.Cells[1, 1].Value.ToString();
 
             Console.WriteLine(strRes);

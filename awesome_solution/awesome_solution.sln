@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDependency", "SQLDepende
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToDateTime", "ConvertToDateTime\ConvertToDateTime.csproj", "{4D299CF6-E4A9-44C7-8A71-A61C885A13CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncWithTask", "AsyncWithTask\AsyncWithTask.csproj", "{B3A23D68-16AE-47D8-8953-18F8EB80EBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4D299CF6-E4A9-44C7-8A71-A61C885A13CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D299CF6-E4A9-44C7-8A71-A61C885A13CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D299CF6-E4A9-44C7-8A71-A61C885A13CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A23D68-16AE-47D8-8953-18F8EB80EBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A23D68-16AE-47D8-8953-18F8EB80EBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A23D68-16AE-47D8-8953-18F8EB80EBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A23D68-16AE-47D8-8953-18F8EB80EBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
