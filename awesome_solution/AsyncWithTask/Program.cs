@@ -11,8 +11,7 @@ namespace AsyncWithTask
         public static async Task<long> DoSomething1()
         {
             Console.WriteLine("Task 1 bat dau");
-            Task<long> task = new Task<long>(() =>
-            {
+            Task<long> task = new Task<long>(() => {
                 long sum = 0;
                 for (int i = 0; i < 1000; i++)
                 {
@@ -40,6 +39,9 @@ namespace AsyncWithTask
                 Console.WriteLine(i);
             }
             Console.ReadLine();
+
+            int num = 0;
+            int.TryParse("20", out num);
         }
     }
 }
